@@ -1,10 +1,15 @@
-import React from "react";
+import Clienti from "./pages/clienti";
 
-export default function App() {
+function App() {
   return (
-    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>Gestionale WAIP</h1>
-      <p>Benvenuto! Il gestionale è online.</p>
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">Gestionale WAIP</h1>
+      <p className="mb-6">Benvenuto! Il gestionale è online.</p>
+
+      {/* Qui inseriamo la pagina clienti */}
+      <Clienti />
     </div>
   );
 }
+
+export default App;
