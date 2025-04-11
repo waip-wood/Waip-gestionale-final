@@ -1,7 +1,10 @@
-import GestionaleMockup from "./GestionaleMockup";
+import React from "react";
 
-function App() {
-  return <GestionaleMockup />;
+export default function App() {
+  return (
+    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      <h1>Gestionale WAIP</h1>
+      <p>Benvenuto! Il gestionale è online.</p>
+    </div>
+  );
 }
-
-export default App;
